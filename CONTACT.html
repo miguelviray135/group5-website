@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Saint Paul's Parish Outreach</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #000;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+            transform: scale(1.1);
+        }
+
+        .hero {
+            position: relative;
+            height: 90vh;
+            background: url('file:///C:/Users/qwerty/Downloads/St-Paul-of-Cross-Parish-Marikina-696x392.jpeg') no-repeat center center/cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+            margin-top: 60px;
+        }
+
+        .hero h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3rem;
+            text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000;
+            color: #ffcc00;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 5rem auto;
+            padding: 2rem;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .members-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .member {
+            text-align: center;
+        }
+
+        .info-box {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #333;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+            color: #ffcc00;
+            transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+
+        .info-box img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .info-box:hover {
+            background: #ffcc00;
+            color: #000;
+            transform: scale(1.05);
+        }
+
+        .hover-box {
+            background-color: #333;
+            padding: 1rem;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+            margin-top: 1rem;
+        }
+
+        .hover-box:hover {
+            background: #ffcc00;
+            color: #000;
+            transform: scale(1.05);
+        }
+
+        .hover-box a {
+            color: #ffcc00;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .hover-box a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .social-button {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #3b5998;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-button:hover {
+            background-color: #4c69ba;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ABOUTPAGE.html">About</a></li>
+            <li><a href="PROGRAMS.html ">Programs</a></li>
+            <li><a href="CONTACT.html"> Contact</a></li>
+            <li><a href="GETINVLOLVED.html">Get Involved</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <div>
+            <h1>Contact Saint Paul's Parish Outreach</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Our Members</h2>
+        <div class="members-grid">
+            <div class="member">
+                <div class="info-box">
+                    <img src="file:///C:/Users/qwerty/Downloads/475167041_1665672594369290_8078585226809877812_n.jpg" alt="Miguel Viray">
+                    <p><strong>Miguel Viray</strong><br>Community Engagement Lead</p>
+                </div>
+            </div>
+            <div class="member">
+                <div class="info-box">
+                    <img src="file:///C:/Users/qwerty/Downloads/DSC_0470.jpg" alt="Luccio Navoa">
+                    <p><strong>Luccio Navoa</strong><br>Outreach Specialist</p>
+                </div>
+            </div>
+            <div class="member">
+                <div class="info-box">
+                    <img src="file:///C:/Users/qwerty/Downloads/437352857_1388141031850863_2873051261702374715_n.jpg" alt="Sebastian Zubia">
+                    <p><strong>Sebastian Zubia</strong><br>Volunteer Coordinator</p>
+                </div>
+            </div>
+            <div class="member">
+                <div class="info-box">
+                    <img src="file:///C:/Users/qwerty/Downloads/480267540_1057149949509354_2967294627802569668_n.jpg" alt="Miguel Francisco">
+                    <p><strong>Miguel Francisco</strong><br>Parish Coordinator</p>
+                </div>
+            </div>
+            <div class="member">
+                <div class="info-box">
+                    <img src="file:///C:/Users/qwerty/Downloads/478302485_1163024442063571_7898201232769130552_n.jpg" alt="Rvin Weinstein">
+                    <p><strong>Rvin Weinstein</strong><br>Operations Manager</p>
+                </div>
+            </div>
+            <div class="member">
+                <div class="info-box">
+                    <img src="file:///C:/Users/qwerty/Downloads/462647414_1640805033210414_8999173847263571800_n.jpg" alt="Group 5">
+                    <p><strong>Group 5</strong><br>Outreach Team</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    

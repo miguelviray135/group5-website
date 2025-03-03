@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs - Saint Paul's Parish Outreach</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Navigation Bar at the top */
+        nav {
+            background-color: #000;
+            padding: 1rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s ease, transform 0.3s ease;
+            border-bottom: 2px solid transparent;
+            padding-bottom: 5px;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+            transform: scale(1.1);
+            border-bottom: 2px solid #ffcc00;
+        }
+
+        /* Hero Section with Background Image */
+        .hero {
+            position: relative;
+            height: 90vh;
+            background: url('file:///C:/Users/qwerty/Downloads/St-Paul-of-Cross-Parish-Marikina-696x392.jpeg') no-repeat center center/cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+            margin-top: 60px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #ffcc00;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .hero h1:hover {
+            color: #e6b800;
+            transform: scale(1.05);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #d1d1d1;
+            margin-top: 20px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .hero p:hover {
+            color: #ffcc00;
+            transform: scale(1.05);
+        }
+
+        /* Container Layout */
+        .container {
+            max-width: 900px;
+            margin: 5rem auto;
+            padding: 2rem;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        /* Hoverable Section Titles */
+        h2 {
+            color: #ffcc00;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+
+        h2:hover {
+            color: #ff0000;
+            transform: scale(1.05);
+        }
+
+        p {
+            margin: 1rem 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #333;
+            margin: 0.5rem 0;
+            padding: 1.2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+            color: #ffcc00;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+
+        ul li:hover {
+            background-color: #ffcc00;
+            color: #000;
+            transform: scale(1.05);
+            letter-spacing: 1px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #333;
+            color: white;
+            font-size: 0.9rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Hoverable text */
+        .hoverable {
+            display: inline-block;
+            padding: 10px 15px;
+            font-size: 1.1rem;
+            color: #ffcc00;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .hoverable:hover {
+            background-color: #ffcc00;
+            color: #000;
+            cursor: pointer;
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar at the top -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ABOUTPAGE.html">About</a></li>
+            <li><a href="PROGRAMS.html ">Programs</a></li>
+            <li><a href="CONTACT.html"> Contact</a></li>
+            <li><a href="GETINVLOLVED.html">Get Involved</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <div class="hero">
+        <div>
+            <h1>Saint Paul's Parish Programs</h1>
+            <p>Faith in Action: Serving our Community</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="hoverable">Our Active Programs</h2>
+        <p>Saint Paul's Parish Outreach runs a variety of programs aimed at improving the quality of life in our community. Whether it's helping those in need, providing healthcare services, or supporting youth leadership, we strive to create positive, lasting change. Here are some of the programs we are currently running:</p>
+
+        <h2 class="hoverable">Ongoing Programs</h2>
+        <ul>
+            <li><strong>Clothing Reprocessing Program:</strong> Collecting and reprocessing old clothing for redistribution to those in need.</li>
+            <li><strong>Volunteer Training Program:</strong> Teaching new volunteers the skills they need to serve the community effectively.</li>
+            <li><strong>Community Food Drives:</strong> Regular food distribution to families and individuals facing food insecurity.</li>
+            <li><strong>Faith Retreats:</strong> Spiritual retreats aimed at strengthening personal faith and offering moments of reflection and growth.</li>
+            <li><strong>Youth Leadership Program:</strong> A mentorship program to help young people develop leadership skills and a sense of community responsibility.</li>
+            <li><strong>Health and Wellness Clinics:</strong> Free medical and dental checkups for underserved community members.</li>
+            <li><strong>Environmental Sustainability Initiatives:</strong> Organizing community clean-up drives and environmental education programs.</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Saint Paul's Parish. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

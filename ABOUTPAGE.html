@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Saint Paul's Parish Outreach</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #000;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #000;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding-bottom: 5px;
+            border-bottom: 2px solid transparent;
+            transition: color 0.3s ease, transform 0.3s ease, border-bottom 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+            transform: scale(1.1);
+            border-bottom: 2px solid #ffcc00;
+        }
+
+        .hero {
+            position: relative;
+            height: 90vh;
+            background: url('file:///C:/Users/qwerty/Downloads/St-Paul-of-Cross-Parish-Marikina-696x392.jpeg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+            margin-top: 60px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .hero h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 4rem;
+            color: #ffcc00;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 3px;
+            transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+
+        .hero h1:hover {
+            color: #e6b800;
+            transform: scale(1.05);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #d1d1d1;
+            margin-top: 20px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .hero p:hover {
+            color: #ffcc00;
+            transform: scale(1.05);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 5rem auto;
+            padding: 2rem;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .container h2 {
+            color: #ffcc00;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .container h2:hover {
+            color: #ff0000;
+            transform: scale(1.05);
+        }
+
+        p {
+            margin: 1rem 0;
+        }
+
+        .mission-box {
+            background-color: #333;
+            color: #ffcc00;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            margin-bottom: 2rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .mission-box:hover {
+            background-color: #ffcc00;
+            color: #000;
+            transform: scale(1.05);
+        }
+
+        .mission-box ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .mission-box ul li {
+            background: #444;
+            margin: 0.5rem 0;
+            padding: 1.2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+            color: #ffcc00;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .mission-box ul li:hover {
+            background-color: #ffcc00;
+            color: #000;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #333;
+            color: white;
+            font-size: 0.9rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar at the top -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ABOUTPAGE.html">About</a></li>
+            <li><a href="PROGRAMS.html ">Programs</a></li>
+            <li><a href="CONTACT.html"> Contact</a></li>
+            <li><a href="GETINVLOLVED.html">Get Involved</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <div class="hero">
+        <div>
+            <h1>About Saint Paul's Parish Outreach</h1>
+            <p>Faith, Hope, and Service</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>About Saint Paul's Parish</h2>
+        <div class="mission-box">
+            <p>Saint Paul's Parish is a vibrant community of faith located in the heart of Marikina City, under the Diocese of Antipolo. The parish is known for its strong devotion to St. Paul of the Cross, the founder of the Passionist Order. It serves as a spiritual center for its parishioners and plays an active role in community outreach and social services.</p>
+        </div>
+
+        <h2>Fun Facts about Saint Paul's Parish Marikina, Philippines</h2>
+        <div class="mission-box">
+            <ul>
+                <li>The parish was established in 1978 and has since grown to become a major hub of worship and community activities.</li>
+                <li>It hosts an annual feast day celebration on the first Sunday of September, which is attended by thousands of devotees from all over the region.</li>
+                <li>Saint Paul's Parish is known for its active participation in diocesan activities and events, including charity drives, youth ministries, and spiritual retreats.</li>
+                <li>The parish church, designed in a modern architectural style, stands as a symbol of faith and service in Marikina City.</li>
+                <li>It is dedicated to serving the needs of the underprivileged and is actively involved in outreach programs, including food drives and healthcare services.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Saint Paul's Parish. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
